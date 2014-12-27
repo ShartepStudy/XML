@@ -1,1 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="first.css" ?>
+<Notebook>
+  <!-- Коментарий -->
+  <Person Name="Vasya">
+    <Phone>123456</Phone>
+    <Phone>987456</Phone>
+    <Email>kjsadfhk@kjfg.com</Email>
+  </Person>
+  <Person Name="Nina">
+    <Phone>126</Phone>
+    <Phone>7456</Phone>
+    <Email>ksdfgvhk@kjfg.com</Email>
+  </Person>
+</Notebook>
