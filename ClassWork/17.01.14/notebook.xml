@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE notebook SYSTEM "./notebook.dtd">
+<notebook>
+  <person>
+    <name>Vasya</name>
+    <surename>Vasilev</surename>
+    <phone citycode="380482">23-56-87</phone>
+    <email>abc@gmail.com</email>
+  </person>
+  <person>
+    <name>Olya</name>
+    <surename>Vasileva &author;</surename>
+    <phone>23-56-87</phone>
+    <email>abc@gmail.com</email>
+  </person>
+</notebook>

@@ -1,0 +1,17 @@
+<!ELEMENT notebook (person+)>
+<!ELEMENT person (name, surname, phone+, email*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT br EMPTY>
+<!ELEMENT someelement (name, (phone | email))>
+<!ELEMENT someelement1 (#PCDATA | br)*>
+
+<!ATTLIST phone 
+  citycode CDATA #REQUIRED
+  attr1 (aaa | bbb | ccc) #IMPLIED 
+  attr2 CDATA #FIXED "qqqq"
+>
+
+<!ENTITY author "tratatata">
