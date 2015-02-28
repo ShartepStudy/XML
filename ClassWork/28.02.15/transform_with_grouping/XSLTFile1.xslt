@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl"
+>
+    <xsl:output method="html" indent="yes"/>
+
+    <xsl:template match="items">
+      <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+          <meta charset="utf-8" />
+          <title></title>
+        </head>
+        <body>
+          <xsl:for-each select="item[not(@dep = preceding-sibling::item/@dep)]">
+            <h1>
+              <xsl:value-of select="@dep" />
+            </h1>
+            
+            <xsl:variable name="dep" select="@dep"/>
+            <ul>
+              <xsl:for-each select="../item[@dep=$dep]">
+                <li>
+                  <xsl:value-of select="text()"/>
+                </li>
+              </xsl:for-each>
+            </ul>
+          </xsl:for-each>
+        </body>
+      </html>
+    </xsl:template>
+  
+    
+</xsl:stylesheet>
