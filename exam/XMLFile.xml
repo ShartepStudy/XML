@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="to_HTML.xslt"?>
+<CookBook>
+  <Reciept id="1">
+    <Name>Пицца</Name>
+    <Photo>./pizza.jpg</Photo>
+    <Components>
+      <Component Name="Тесто" Count="200" UnitsType="гр." /> 
+      <Component Name="Сыр" Count="100" UnitsType="гр." /> 
+      <Component Name="Бекон" Count="100" UnitsType="гр." /> 
+      <Component Name="Грибы" Count="50" UnitsType="гр." /> 
+      <Component Name="Томаты" Count="100" UnitsType="гр." /> 
+    </Components>
+    <CookingMethod Difficult="Простой" Time="15" Comment="для диабетиков">
+      Раскатать тесто, натереть сыр, разложить бекон, грибы и томаты.Запечь в духовке.
+    </CookingMethod>
+    <Portions Count="1" />
+    <CaloricContent Count="200" Unit="кКал">
+      <Proteins Unit="гр.">50</Proteins>
+      <Fats Unit="гр.">100</Fats>
+      <Carbs Unit="гр.">150</Carbs>
+    </CaloricContent>
+  </Reciept>
+  <Reciept id="2">
+    <Name>Паста</Name>
+    <Components>
+      <Component Name="Макароны" Count="200" UnitsType="гр." /> 
+      <Component Name="Сыр" Count="100" UnitsType="гр." /> 
+      <Component Name="Бекон" Count="100" UnitsType="гр." /> 
+      <Component Name="Грибы" Count="50" UnitsType="гр." /> 
+      <Component Name="Томаты" Count="100" UnitsType="гр." /> 
+    </Components>
+    <CookingMethod Difficult="Простой" Time="25" Comment="вкусный">
+      Сварить макароны, натереть сыр, добавить бекон, грибы и томаты.
+    </CookingMethod>
+    <Portions Count="2" />
+    <CaloricContent Count="500" Unit="кКал">
+      <Proteins Unit="гр.">150</Proteins>
+      <Fats Unit="гр.">70</Fats>
+      <Carbs Unit="гр.">230</Carbs>
+    </CaloricContent>
+  </Reciept>
+</CookBook>
