@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="to_HTML.xslt"?>
-<CookBook>
+
+<CookBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./xmlschema.xsd">
   <Reciept id="1">
     <Name>Пицца</Name>
     <Photo>./pizza.jpg</Photo>
@@ -12,7 +13,7 @@
       <Component Name="Томаты" Count="100" UnitsType="гр." /> 
     </Components>
     <CookingMethod Difficult="Простой" Time="15" Comment="для диабетиков">
-      Раскатать тесто, натереть сыр, разложить бекон, грибы и томаты.Запечь в духовке.
+      Раскатать тесто, натереть сыр, разложить бекон, грибы и томаты. Запечь в духовке.
     </CookingMethod>
     <Portions Count="1" />
     <CaloricContent Count="200" Unit="кКал">
